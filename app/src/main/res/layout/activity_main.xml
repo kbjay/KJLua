@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:gravity="center"
+       android:id="@+id/tv_content"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+
+   <Button
+       android:id="@+id/bt_sp"
+       android:text="操作SP"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+   <Button
+       android:id="@+id/bt_permission"
+       android:text="获取权限信息"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+
+   <Button
+       android:id="@+id/bt_db"
+       android:text="操作数据库"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+
+   <Button
+       android:id="@+id/bt_call_obj_method"
+       android:text="调用非静态方法"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+</LinearLayout>

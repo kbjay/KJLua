@@ -1,0 +1,31 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+publishing {
+    // 配置maven 仓库
+    repositories { RepositoryHandler handler->
+//        handler.mavenLocal()  // 发布到默认的 本地maven 仓库 ，路径： USER_HOME/.m2/repository/
+        handler.maven {
+            url "${rootDir}/maven"
+        }
+    }
+    // 配置发布产物
+    publications {PublicationContainer publication->
+
+        // 任务名称：maven
+        maven(MavenPublication) {// 容器可配置的信息 MavenPublication
+//            afterEvaluate { artifact(tasks.getByName("jar")) } // 方式一：生成aar包
+            from components.java
+
+            groupId "com.xm.lua_annotation"
+            artifactId "lua_annotation"
+            version "1.0.0"
+        }
+    }
+}

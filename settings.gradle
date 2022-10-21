@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+
+        maven { url uri("$rootDir/maven") }
+    }
+}
+rootProject.name = "MiLua"
+include ':app'
+include ':lua_java'
+include ':lua_apt'
+include ':lua_annotation'
