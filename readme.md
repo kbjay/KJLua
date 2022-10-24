@@ -67,7 +67,7 @@ return sp:getInt("hello_lua")
 
 4. java执行lua脚本
 ```java
-String execute = LuaExecutor.execute("");
+String execute = LuaExecutor.execute("lua脚本内容");
 ```
 
 5. 添加混淆
