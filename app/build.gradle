@@ -34,11 +34,16 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'com.google.code.gson:gson:2.9.1'
 
-    annotationProcessor 'com.xm.lua_apt:lua_apt:1.0.0'
-    implementation 'com.xm.lua_annotation:lua_annotation:1.0.0'
-    implementation 'com.xm.luajava:lua_java:1.0.0'
 
-//    implementation project(path: ':lua_java')
-//    annotationProcessor project(':lua_apt')
-//    implementation project(':lua_annotation')
+
+    // 方式一：引用工程
+    implementation project(path: ':lua_java')
+    annotationProcessor project(':lua_apt')
+    implementation project(':lua_annotation')
+
+    // 方式二: 引用本地maven
+//    annotationProcessor 'com.xm.lua_apt:lua_apt:1.0.0'
+//    implementation 'com.xm.lua_annotation:lua_annotation:1.0.0'
+//    implementation 'com.xm.luajava:lua_java:1.0.0'
+    // todo 远端maven
 }

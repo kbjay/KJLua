@@ -44,35 +44,24 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
 
-//publishing {
-//    publications {
-//        maven(MavenPublication) {
-//            groupId "com.xm.luajava"
-//            artifactId "lua_java"
-//            version "1.0.0"
-//        }
-//    }
-//}
-
-publishing {
-    // 配置maven 仓库
-    repositories { RepositoryHandler handler->
-//        handler.mavenLocal()  // 发布到默认的 本地maven 仓库 ，路径： USER_HOME/.m2/repository/
-        handler.maven {
-            url "${rootDir}/maven"
+afterEvaluate {
+    publishing {
+        // 配置maven 仓库
+        repositories { RepositoryHandler handler ->
+            handler.maven {
+                url "${rootDir}/maven"
+            }
         }
-    }
-    // 配置发布产物
-    publications {PublicationContainer publication->
-        // 名称可以随便定义，这里定义成 maven，是因为我的 aar 包是发布到 maven 仓库的，所以这里为了见名知义，定义成了 maven
-        // 任务名称：maven
-        maven(MavenPublication) {// 容器可配置的信息 MavenPublication
-            // 依赖 bundleReleaseAar 任务，并上传其产出的aar
-            afterEvaluate { artifact(tasks.getByName("bundleReleaseAar")) } // 方式一：生成aar包
-            // artifact "$buildDir/outputs/aar/${project.name}-release.aar" // 方式二：指定生成的aar路径
-            groupId "com.xm.luajava"
-            artifactId "lua_java"
-            version "1.0.0"
+        // 配置发布产物
+        publications { PublicationContainer publication ->
+            // 任务名称：maven
+            // 容器可配置的信息 MavenPublication
+            maven(MavenPublication) {
+                from components.release
+                groupId "com.xm.luajava"
+                artifactId "lua_java"
+                version "1.0.0"
+            }
         }
     }
 }

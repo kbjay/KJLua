@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.xm.lua_annotation",
+    "module": "lua_annotation",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "lua_annotation-1.0.0.jar",
+          "url": "lua_annotation-1.0.0.jar",
+          "size": 1445,
+          "sha512": "fcf23e6dcee041cb269f635bfb3d6707325be5c7bd08d64c8782f360ece72521b7830aad214fe77c099c5a674823ad14faa067ebf6ea11802833e4c863f28770",
+          "sha256": "04b823f75ef25647db562cf6c8fa133c0745ead93b51b76e055220d8f278d057",
+          "sha1": "339c36f3499b1b99e3c1771ddbdec0b0dbe24194",
+          "md5": "e448dd353d52b8651e1548c69b05da74"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lua_annotation-1.0.0.jar",
+          "url": "lua_annotation-1.0.0.jar",
+          "size": 1445,
+          "sha512": "fcf23e6dcee041cb269f635bfb3d6707325be5c7bd08d64c8782f360ece72521b7830aad214fe77c099c5a674823ad14faa067ebf6ea11802833e4c863f28770",
+          "sha256": "04b823f75ef25647db562cf6c8fa133c0745ead93b51b76e055220d8f278d057",
+          "sha1": "339c36f3499b1b99e3c1771ddbdec0b0dbe24194",
+          "md5": "e448dd353d52b8651e1548c69b05da74"
+        }
+      ]
+    }
+  ]
+}
