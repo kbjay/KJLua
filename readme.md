@@ -38,6 +38,24 @@ implementation 'com.github.kbjay.KJLua:lua_java:v1.0.0'
 @LuaInterfaceForObj(luaName = "obj")
 @LuaInterfaceForClass(luaName = "class")
 ```
+eg:
+```java
+
+/**
+ * 动态修改sp
+ */
+
+@LuaInterfaceForClass(luaName = "sp")
+public class SPLua {
+    public static int getInt(String key){
+        return LuaApplication.instance.getSharedPreferences("lua", Context.MODE_PRIVATE).getInt(key,0);
+    }
+
+    public static void putInt(String key,int value){
+        LuaApplication.instance.getSharedPreferences("lua", Context.MODE_PRIVATE).edit().putInt(key,value).apply();
+    }
+}
+```
 
 3. 使用luaName在lua脚本中调用java方法
 ```lua
@@ -58,7 +76,7 @@ String execute = LuaExecutor.execute("");
 -keep @com.xm.lua_annotation.LuaInterfaceForClass class * {*;}
 ```
 
-具体的使用可以参考app这个module。
+具体的使用可以参考app这个module；整体跟java跟js通信类似！！！
 
 #### 性能影响
 1. 包体：会增加200K，基本无影响。
