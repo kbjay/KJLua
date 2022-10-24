@@ -11,7 +11,11 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
 
+        // 方式二：使用本地maven
         maven { url uri("$rootDir/maven") }
+
+        // 方式三：使用远端maven
+        maven { url 'https://www.jitpack.io' }
     }
 }
 rootProject.name = "MiLua"
