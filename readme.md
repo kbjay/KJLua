@@ -57,7 +57,7 @@ public class SPLua {
 }
 ```
 
-3. 使用luaName在lua脚本中调用java方法
+3. 使用luaName在lua脚本中调用java方法，注意是":"
 ```lua
 -- 调用putInt方法
 sp:putInt("hello_lua",123)
@@ -76,7 +76,7 @@ String execute = LuaExecutor.execute("");
 -keep @com.xm.lua_annotation.LuaInterfaceForClass class * {*;}
 ```
 
-具体的使用可以参考app这个module；整体跟java跟js通信类似！！！
+具体的使用可以参考app这个module；整体跟java跟h5通信类似！！！
 
 #### 性能影响
 1. 包体：会增加200K，基本无影响。
