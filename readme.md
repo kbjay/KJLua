@@ -70,11 +70,6 @@ lua本身
    String execute = LuaExecutor.execute("lua脚本内容");
    ```
 
-5. 添加混淆
-   ```properties
-   -keep @com.xm.lua_annotation.LuaInterfaceForObj class * {*;}
-   -keep @com.xm.lua_annotation.LuaInterfaceForClass class * {*;}
-   ```
 
 具体的使用可以参考app这个module；整体跟java跟h5通信类似！！！
 
