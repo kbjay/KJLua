@@ -47,7 +47,7 @@ dependencies {
 //    implementation 'com.xm.luajava:lua_java:1.0.0'
 
     // 方式三 远端maven
-    implementation 'com.github.kbjay.KJLua:lua_annotation:v1.0.0'
-    annotationProcessor 'com.github.kbjay.KJLua:lua_apt:v1.0.0'
-    implementation 'com.github.kbjay.KJLua:lua_java:v1.0.0'
+    implementation 'com.github.kbjay.KJLua:lua_annotation:v1.0.1'
+    annotationProcessor 'com.github.kbjay.KJLua:lua_apt:v1.0.1'
+    implementation 'com.github.kbjay.KJLua:lua_java:v1.0.1'
 }

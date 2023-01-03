@@ -28,9 +28,9 @@ lua本身
 
    module的build.gradle
    ```groovy
-   implementation 'com.github.kbjay.KJLua:lua_annotation:v1.0.0'
-   annotationProcessor 'com.github.kbjay.KJLua:lua_apt:v1.0.0'
-   implementation 'com.github.kbjay.KJLua:lua_java:v1.0.0'
+   implementation 'com.github.kbjay.KJLua:lua_annotation:v1.0.1'
+   annotationProcessor 'com.github.kbjay.KJLua:lua_apt:v1.0.1'
+   implementation 'com.github.kbjay.KJLua:lua_java:v1.0.1'
    ```
 
 2. 预置需要执行的类方法并使用注解标记类：LuaInterfaceForObj可以执行类中非静态方法；LuaInterfaceForClass可以执行类中的静态方法；luaName是在java类在lua脚本中的“标记”,可以用来直接调用java方法。
