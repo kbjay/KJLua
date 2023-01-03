@@ -26,11 +26,11 @@
         {
           "name": "lua_java-1.0.0.aar",
           "url": "lua_java-1.0.0.aar",
-          "size": 494240,
-          "sha512": "f8f5f62383581e4a0283d1e3b0e80204592dab0209ee94732e196eda22624da9aff3dcd8753fd1a6169daa8df2674a25233b1fd2596604f3f123b21c000b4a23",
-          "sha256": "848a1caf1fc5ac060de7db28c5e397191a8c93bca81a2385ac9e71bc9b3770a5",
-          "sha1": "7e19963ff3dc0b8c5f0e23fdb2914358d1e45651",
-          "md5": "61c62397c4008f6fdcde99cfe164e234"
+          "size": 494387,
+          "sha512": "fda4fce4c97a50c98b4199ce74b09ec27fe12332841a3063c3d4e16fc209e370aa4738a888dac8053ee0b5f435dad5aaf6d84ea1c9e5631698ae151f70213eb2",
+          "sha256": "3728377da6efa347f8d4f7190a75a27a755df19a4bfc63c022dfdb9eab4ab177",
+          "sha1": "59e92a9dd3a91b6ba8ddba006e0d3ea6274fa71b",
+          "md5": "299fe1837069e6cd915fe5278b677006"
         }
       ]
     },
@@ -62,11 +62,11 @@
         {
           "name": "lua_java-1.0.0.aar",
           "url": "lua_java-1.0.0.aar",
-          "size": 494240,
-          "sha512": "f8f5f62383581e4a0283d1e3b0e80204592dab0209ee94732e196eda22624da9aff3dcd8753fd1a6169daa8df2674a25233b1fd2596604f3f123b21c000b4a23",
-          "sha256": "848a1caf1fc5ac060de7db28c5e397191a8c93bca81a2385ac9e71bc9b3770a5",
-          "sha1": "7e19963ff3dc0b8c5f0e23fdb2914358d1e45651",
-          "md5": "61c62397c4008f6fdcde99cfe164e234"
+          "size": 494387,
+          "sha512": "fda4fce4c97a50c98b4199ce74b09ec27fe12332841a3063c3d4e16fc209e370aa4738a888dac8053ee0b5f435dad5aaf6d84ea1c9e5631698ae151f70213eb2",
+          "sha256": "3728377da6efa347f8d4f7190a75a27a755df19a4bfc63c022dfdb9eab4ab177",
+          "sha1": "59e92a9dd3a91b6ba8ddba006e0d3ea6274fa71b",
+          "md5": "299fe1837069e6cd915fe5278b677006"
         }
       ]
     }

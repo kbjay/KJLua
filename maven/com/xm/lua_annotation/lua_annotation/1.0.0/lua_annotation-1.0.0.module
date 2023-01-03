@@ -27,11 +27,11 @@
         {
           "name": "lua_annotation-1.0.0.jar",
           "url": "lua_annotation-1.0.0.jar",
-          "size": 1445,
-          "sha512": "fcf23e6dcee041cb269f635bfb3d6707325be5c7bd08d64c8782f360ece72521b7830aad214fe77c099c5a674823ad14faa067ebf6ea11802833e4c863f28770",
-          "sha256": "04b823f75ef25647db562cf6c8fa133c0745ead93b51b76e055220d8f278d057",
-          "sha1": "339c36f3499b1b99e3c1771ddbdec0b0dbe24194",
-          "md5": "e448dd353d52b8651e1548c69b05da74"
+          "size": 1441,
+          "sha512": "b9682516e38ea7a0ce86d296e5b36a36cb4b36807bed577967fa2b6676789eb88e490974a3ad64c18d7def3c98e3fcd14fdb3a87615188a79daad01a4c97fa63",
+          "sha256": "d34bb289811ccbbfdb34192fd0c52cf8b2320c0c65e4a09540efb807ac8cc403",
+          "sha1": "975afb56fb630e4dc784edc77130f52b2c395018",
+          "md5": "ae9d1a37ebb12a1e21a38ea103166339"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "lua_annotation-1.0.0.jar",
           "url": "lua_annotation-1.0.0.jar",
-          "size": 1445,
-          "sha512": "fcf23e6dcee041cb269f635bfb3d6707325be5c7bd08d64c8782f360ece72521b7830aad214fe77c099c5a674823ad14faa067ebf6ea11802833e4c863f28770",
-          "sha256": "04b823f75ef25647db562cf6c8fa133c0745ead93b51b76e055220d8f278d057",
-          "sha1": "339c36f3499b1b99e3c1771ddbdec0b0dbe24194",
-          "md5": "e448dd353d52b8651e1548c69b05da74"
+          "size": 1441,
+          "sha512": "b9682516e38ea7a0ce86d296e5b36a36cb4b36807bed577967fa2b6676789eb88e490974a3ad64c18d7def3c98e3fcd14fdb3a87615188a79daad01a4c97fa63",
+          "sha256": "d34bb289811ccbbfdb34192fd0c52cf8b2320c0c65e4a09540efb807ac8cc403",
+          "sha1": "975afb56fb630e4dc784edc77130f52b2c395018",
+          "md5": "ae9d1a37ebb12a1e21a38ea103166339"
         }
       ]
     }
