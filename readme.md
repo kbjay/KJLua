@@ -76,3 +76,18 @@ lua本身
 #### 性能影响
 1. 包体：会增加200K，基本无影响。
 2. 运行时内存：只在后台动态下发脚本的时候会加载so，执行lua，基本可以忽略。
+
+#### LICENSE
+Copyright 2023 KJLuA
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
